@@ -155,13 +155,13 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   var tweet = document.createElement("a");
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
-  tweet.setAttribute("data-via", "marumichannel");
-  tweet.setAttribute("data-url", "http://marumichannel.github.io/2048/");
-  tweet.setAttribute("data-counturl", "http://marumichannel.github.io/2048/");
+  tweet.setAttribute("data-via", "shiraihii");
+  tweet.setAttribute("data-url", "http://2048bkb.sinaapp.com/");
+  tweet.setAttribute("data-counturl", "http://2048bkb.sinaapp.com/");
   tweet.textContent = "Tweet";
 
-  var text = "I scored " + this.score + " points at 井口 2048, a game where you " +
-             "join 井口 to score high! #井口2048";
+  var text = "I scored " + this.score + " points at 兵庫北 2048, a game where you " +
+             "join 兵庫北 to score high! #兵庫北2048";
   tweet.setAttribute("data-text", text);
 
   return tweet;
